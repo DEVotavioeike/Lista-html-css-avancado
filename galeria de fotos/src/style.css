@@ -1,0 +1,27 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.pinturas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pintura{
+    position: relative;
+}
+
+.text{
+    position: absolute; 
+    bottom: 43px;
+    left: 26px;
+    color: white;
+}
+
+.text p{
+    margin-top: 5px;
+    font-weight: 300;
+}

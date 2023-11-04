@@ -1,0 +1,92 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icone{
+    margin-left:44px;
+}
+
+#texto-extra-bold{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 10px;   
+}
+
+.icone-thebank{
+    display: flex;
+    align-items: center;
+}
+
+.nave{
+    display: flex;
+    margin-right: 50px;
+}
+
+li{
+    align-items: center;
+    margin: 59px 18px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.border{
+    color: white;
+    padding: 10px;
+    background-color: var(--cor-dos-botoes);
+    
+}
+
+.retangular{
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) { 
+    .container{
+        justify-content: center;
+    }
+
+    .icone-thebank{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50%;
+        align-items: flex-start;
+        width: 100%;
+        margin: 60px 55% 0px 45% ;
+    }
+
+    .nave{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    li{
+        margin: 33px 0px;
+        display: flex;
+       justify-content: center;
+    }
+
+    #link-1-5{
+        font-size: 40px;
+    }
+
+    #link-6{
+        font-size: 38px;
+    }
+
+    #texto-extra-bold{
+        font-size: 30px;
+    }
+ }

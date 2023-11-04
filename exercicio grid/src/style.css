@@ -1,0 +1,69 @@
+html{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid: "video propaganda" 30%
+          "video recomendacoes";
+          grid-template-columns: 60% 40%;
+    min-height: 100vh;
+    gap: 17px;
+    background-color: rgb(28, 26, 26);
+    min-width: 1300px;
+}
+
+.video-informacoes{
+    grid-area: video;
+    margin: 38px 0px 19px 35px;
+    background-color: rgb(28, 26, 26);
+}
+
+.propaganda{
+    grid-area: propaganda;
+    background-color: red;
+    margin: 38px 35px 0px 0px;
+}
+
+.recomendacoes{
+    grid-area: recomendacoes;
+    margin: 0px 38px 55px 0px;
+}
+
+.video{
+    height: 60%;
+}
+
+.video iframe{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.informacoes{
+    margin-top:10px;
+}
+
+.informacoes h5{
+    font-weight: 300;
+    margin: 5px 0px;  
+}
+
+.sugeridos{
+    margin-top: 20px;
+    display: flex;
+    height: 25%;
+    align-items: flex-start;
+}
+
+.sugeridos p{
+    margin-top: 8px;
+}
+
+.text-sugeridos{
+    margin: 10px 0px 0px 10px;
+}
+
+
